@@ -1,0 +1,54 @@
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 50px;
+  color: #bababa;
+  display: flex;
+  position: absolute;
+  font-family: monospace;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #0521687b, #0c63ba);
+}
+.footer_elem {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.padd_10px {
+  padding: 10px;
+}
+.float_right {
+  float: right;
+}
+.align_center {
+  text-align: center;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.1s linear 0s;
+}
+.link:hover {
+  text-decoration: underline;
+  color: silver;
+}
+.home_link {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s linear 0s;
+}
+.home_link:hover {
+  color: skyblue;
+}
+.header_title {
+  font-family: "Courier New", Courier, monospace;
+}
+.header {
+  color: white;
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  box-shadow: 2px 2px 3px 3px rgb(201, 201, 201);
+  opacity: 70%;
+}

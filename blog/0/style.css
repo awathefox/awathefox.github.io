@@ -1,0 +1,42 @@
+.waiting_text {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  opacity: 40%;
+  font: size 20px;
+  font-weight: bolder;
+}
+.text_3d_effect {
+  text-shadow: 1px 4px 0px #909090, 1px 5px 10px rgba(0, 0, 0, 60%);
+}
+.blog_select_box {
+  display: inline-block;
+  transition: all 0.2s linear 0s;
+  width: 25%;
+  left: 50%;
+  border: 1px solid grey;
+  border-radius: 25px;
+  text-align: center;
+}
+.blog_select_box:hover {
+  box-shadow: 1px 4px 0px #909090, 1px 5px 10px rgba(0, 0, 0, 60%);
+  cursor: pointer;
+}
+.blog_title {
+  font-weight: bolder;
+  font: size 20px;
+  font-family:'Courier New', Courier, monospace;
+  text-decoration: none;
+  transition: all 0.1s linear 0s;
+  color: grey;
+  margin: 15%;
+}
+.blog_title:hover {
+  color: silver;
+}
+.blog_date {
+  text-align: right;
+  color: rgb(233, 233, 233);
+}
+.page_title {
+  text-shadow: 1px 4px 0px #909090, 1px 5px 10px rgba(0, 0, 0, 60%)
+}
